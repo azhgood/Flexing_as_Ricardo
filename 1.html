@@ -1,0 +1,35 @@
+<html>
+<head><title>Факториалы</title></head>
+<body>
+
+<h2>Таблица факториалов</h2>
+<script>
+var fact = 1;
+for(i = 1; i < 10; i++)
+ {
+fact = fact*i;
+document.write(i + "! = " + fact + "<br>");
+ }
+
+ document.write("<h2>Числа Фибоначчи </h2>");
+for (i=0, j=1, k=0, fib =0; i<1000; i++, fib=j+k, j=k, k=fib){
+document.write("Fibonacci (" + i + ") = " + fib);
+document.write("<br>");
+}
+
+ var nomber = 5;
+var string = "Hellow";
+var sym = Symbol();
+var boolean = true;
+null;
+undefined;
+var obj = {};
+
+let arr = ['plum.png','orange.jpg','aplle.bmp'];
+console.log(arr[0])
+
+console.log(4/0);
+console.log('string'*8)
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+
+<head>
+        <title>Индикатор пидораса</title>
+        <style>
+                /* Это каскадная таблица стилей: с ее помощью определяется внешний вид документа */
+                .result {
+                        font-weight: bold;
+                }
+
+                /*стиль отображения элементов с class="result"*/
+                #payment {
+                        text-decoration: underline;
+                }
+
+                /* для элемента с id="payment" */
+        </style>
+</head>
+
+<body>
+        <form name="Getero_or_not">
+                <table>
+                        <tr>
+                                <td><b>Сча узнаем, гей ты или нет...</b></td>
+                        </tr>
+                        <tr>
+                                <td>1) Ты парень? :</td>
+                                <td><input type="checkbox" name="yes" value="Да"> Да</p>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>1) Любишь члены? :</td>
+                                <td><input type="checkbox" name="yes" value="Да"> Да</p>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td></td>
+                                <td><input type="button" value="Давай уточним" onclick="calculate( );"></td>
+                        </tr>
+
+                        <tr>
+                                <td><b>Результат:</b></td>
+                        </tr>
+                        <tr>
+                                <td>Твоя ориентация: ЗАДНЕПРИВОДНЫЙ ГИБОН </td>
+                                <td><span class="result" id="payment"></span></td>
+                        </tr>
